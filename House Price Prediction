@@ -124,6 +124,7 @@ X_train, X_valid, Y_train, Y_valid = train_test_split(
 
 
 
+#Support vector Machine
 
 from sklearn import svm
 from sklearn.svm import SVC
@@ -138,6 +139,7 @@ print(mean_absolute_percentage_error(Y_valid, Y_pred))
 
 
 
+#Random Forest Regression
 
 from sklearn.ensemble import RandomForestRegressor
 
@@ -150,6 +152,7 @@ mean_absolute_percentage_error(Y_valid, Y_pred)
 
 
 
+#Linear Regression
 
 
 from sklearn.linear_model import LinearRegression
