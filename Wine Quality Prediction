@@ -109,5 +109,4 @@ for i in range(3):
 
 
 
-print(metrics.classification_report(ytest,
-									models[1].predict(xtest)))
+print(metrics.classification_report(ytest, models[1].predict(xtest)))
